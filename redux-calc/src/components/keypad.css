@@ -2,13 +2,14 @@ button {
   --bg-color: rgb(182, 182, 182);
   --fg-color: rgb(90, 70, 202);
 
-  padding: 0.5rem 0.75rem;
+  padding: 1rem 1.5rem;
   background-color: var(--bg-color);
   border: 1px solid;
   color: var(--fg-color);
   border-radius: 0.5rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   transition: 300ms;
+  margin: 3px;
 }
 
 button:hover {
@@ -17,5 +18,5 @@ button:hover {
 }
 
 #equals {
-  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  padding: 1rem 3rem 1rem 3rem;
 }
